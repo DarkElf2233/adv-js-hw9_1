@@ -18,10 +18,10 @@ export default class Character {
   }
 
   set attack(range) {
-    if (this.stoned) {
-      this.attack -= (range + 1) * 5;
+    if (this.stonedStatus) {
+      this.attackPoints -= (range + 1) * 5;
     } else {
-      this.attack -= range * 5;
+      this.attackPoints -= range * 5;
     }
   }
 }
