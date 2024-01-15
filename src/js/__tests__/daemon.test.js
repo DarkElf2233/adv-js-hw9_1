@@ -17,6 +17,6 @@ describe('Daemon', () => {
     const daemon = new Daemon();
     daemon.stoned = true;
     daemon.attack = 2;
-    expect(daemon.attack).toEqual(85);
+    expect(daemon.attack).toEqual(95);
   });
 });

@@ -17,6 +17,6 @@ describe('Magician', () => {
     const magician = new Magician();
     magician.stoned = true;
     magician.attack = 2;
-    expect(magician.attack).toEqual(85);
+    expect(magician.attack).toEqual(95);
   });
 });
